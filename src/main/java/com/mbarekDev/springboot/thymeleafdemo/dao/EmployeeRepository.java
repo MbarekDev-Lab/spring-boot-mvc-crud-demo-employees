@@ -1,8 +1,8 @@
-package com.luv2code.springboot.thymeleafdemo.dao;
+package com.mbarekDev.springboot.thymeleafdemo.dao;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import com.luv2code.springboot.thymeleafdemo.entity.Employee;
+import com.mbarekDev.springboot.thymeleafdemo.entity.Employee;
 
 import java.util.List;
 
