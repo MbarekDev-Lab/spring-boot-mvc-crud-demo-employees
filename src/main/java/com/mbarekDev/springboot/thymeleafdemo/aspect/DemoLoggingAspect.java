@@ -45,14 +45,14 @@ public class DemoLoggingAspect {
 
 
     // Advice that runs before any method in the controller package
-    /*@Before("forControllerPackage()")
+    @Before("forControllerPackage()")
     public void beforeControllerMethod(JoinPoint joinPoint) {
         String method = joinPoint.getSignature().toShortString();
         logger.info("=====>> Executing @Before advice on method: " + method);
 
         Object[] args = joinPoint.getArgs();
-        for (Object arg : args) {
-            logger.info("=====>> Argument: " + arg);
+        for (Object tempArg : args) {
+            logger.info("=====>> Argument: " + tempArg);
         }
-    }*/
+    }
 }
